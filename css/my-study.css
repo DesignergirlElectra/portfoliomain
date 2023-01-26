@@ -1,0 +1,186 @@
+.work {
+    color: #6e86b8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.study-gap {
+    padding-bottom: 5%;
+}
+.study-text {
+    font-size: 55px;
+}
+
+.study-head1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+
+.study-right a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid #c4c2c2;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+.study-part-1 {
+    position: relative;
+}
+.box-img {
+    position: relative;
+    width: 70%;
+}
+
+.box-img img {
+    width: 100%;
+}
+.study-img {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 70%;
+  box-shadow: 0px 0px 50px grey;
+}
+.study-img img {
+    width: 100%;
+}
+
+.study-num {
+    color: #e2e2e2;
+}
+.study-content{
+    color: #8f96ac; 
+    padding: 2% 0 5% 0
+}
+.box-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    background-image: url(../img/pnggrid.png);
+    background-size: contain;
+    height: 200px;
+    width: 50px;
+}
+.study-part-right{
+    direction: rtl;
+}
+.study-part-right .study-img{
+    left:0;
+    right: auto;
+}
+.study-part-right .box-img::after{
+    left: auto;
+    right: -50px;
+}
+
+/* my skill  */
+.skill-left{
+    font-size:25px;
+  }
+  .skill-heading{
+    font-size:30px;
+  }
+  .skill-img img{
+    width: 100%;
+  }
+  .skill-design{
+    padding: 5% 0;
+  }
+  .skill-web{
+    padding: 2% 0;
+  }
+  .web-progress{
+    width: 100%;
+    height: 15px;
+    background: grey;
+    position: relative;
+    border-radius: 10px;
+  }
+  .skill-web .web-progress::after{
+    border-radius:10px;
+    content: '';
+    position:absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width:90%;
+    background-color: #000;
+  }
+
+  .project{
+    position: relative;
+  }
+
+  .project::before {
+    position: absolute;
+    content: '';
+    background: url(../img/logo-img.png);
+    left: 0;
+    bottom: 0;
+    background-size: contain;
+    height: 35%;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+.css .web-progress::after {
+    width: 70%;
+  }
+  .bootstrap .web-progress::after {
+    width: 50%;
+  }
+  .java .web-progress::after {
+    width: 40%;
+  }
+  .photo .web-progress::after {
+    width: 80%;
+  }
+  .sass .web-progress::after {
+    width: 60%;
+  }
+
+
+  /* lets connect css  */
+  section.connect {
+    padding: 5%;
+}
+  .main-connect{
+    position: relative;
+    text-align: center;
+  }
+  .connect-text {
+    padding-bottom: 5%;
+}
+.main-connect::after {
+    position: absolute;
+    content: '';
+    bottom: -38px;
+    left: 48%;
+    background: url(../img/pnggrid.png);
+    background-size: cover;
+    height: 100px;
+    width: 54px;
+    z-index: -1;
+}
+.lets-talk a{
+    background:white;
+    z-index: 1;
+}
+/* footer starts  */
+.footer-site{
+    padding: 5% 0;
+}
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-right i {
+    padding: 0 10px;
+    font-size: 25px;
+}
+  
